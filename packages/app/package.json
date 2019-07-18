@@ -1,6 +1,22 @@
 {
   "name": "@reproducing/app",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "private": true,
+  "devDependencies": {
+    "@epegzz/sass-vars-loader": "^4.3.1",
+    "css-loader": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "sass": "^1.22.7",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@reproducing/common": "1.0.0"
+  }
 }
